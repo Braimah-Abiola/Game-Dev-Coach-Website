@@ -1,0 +1,5 @@
+Colours:
+
+Blue Color - #0077ff
+Header Color - #5898ec
+pinkish Red - #e45447
