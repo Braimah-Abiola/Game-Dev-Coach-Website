@@ -207,7 +207,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #ffd200; }
+          background: #969696; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -270,6 +270,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
+    opacity: 0.9;
     background: #5898ec;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
@@ -308,7 +309,7 @@ button:focus {
   background: url(../img/banner/banner-bg1.jpg);
  background-size: cover; }
 .banner-area .slide_bg2 {
-  background: url(../img/banner/banner-bg1.jpg); 
+  background: url(../img/banner/banner-bg2.jpg); 
   background-size: cover;
 }
 @media (max-width: 991px) {
@@ -2858,7 +2859,7 @@ h6 {
   display: inline-block; }
   .social_widget .list li a {
     color: #2e2e2e;
-    font-size: 36px;
+    font-size: 28px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
