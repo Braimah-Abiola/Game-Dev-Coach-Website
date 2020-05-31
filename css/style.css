@@ -314,8 +314,8 @@ button:focus {
     width: 100%;
     top: -70px;
     left: 0;
-    right: 0; /*porn #476ce4*/
-    opacity: 0.9;
+    right: 0; 
+    opacity: 0.95;
     background: #478ae2;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
@@ -582,7 +582,7 @@ Contact Banner
       text-transform: uppercase;
       cursor: pointer; }
       .projects_text h4:hover{
-        color: rgb(45, 86, 223);
+        color: rgb(187, 187, 187);
       }
     .projects_item .projects_text p {
       margin-bottom: 0px;
@@ -2987,3 +2987,29 @@ Loader
       0% {
         margin-top: 2px;
         opacity: 0; } }
+
+/*======================= Subscribe Btns =====================  */
+.subscribe-btn {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 46px;
+  padding: 0 40px;
+  outline: none !important;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+  .subscribe-btn:hover {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid red; }
+
+/*======================= End Subscribe Btns =====================  */
