@@ -353,6 +353,9 @@ button:focus {
 .banner-area .slide_bg1 {
   background: url(../img/banner/banner-bg1.jpg);
  background-size: cover; }
+ .banner-area .slide_bg2 {
+  background: url(../img/banner/team-banner.jpg);
+ background-size: cover; }
 
 
 @media (max-width: 991px) {
@@ -394,6 +397,8 @@ button:focus {
     @media (max-width: 991px) {
       .banner-content h3 {
         font-size: 20px; } }
+
+
 
 /* End Home Banner Area css
 ============================================================================================ */
@@ -459,7 +464,7 @@ Contact Banner
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/contact-banner.JPG);
+    background-image: url(../img/banner/team-banner.jpg);
     background-size: cover;
     z-index: 1; }
     .banner_area2 .banner_inner .banner_content h1 {
@@ -498,6 +503,54 @@ Contact Banner
           .banner_area2 .banner_inner .banner_content .page_link a:last-child:before {
             display: none; }
 
+            .banner_area3 {
+              position: relative;
+              z-index: 1;
+              min-height: 400px; }
+              .banner_area3 .banner_inner {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                min-height: 400px;
+                background-image: url(../img/banner/contact-banner.jpg);
+                background-size: cover;
+                z-index: 1; }
+                .banner_area3 .banner_inner .banner_content h1 {
+                  color: #000;
+                  font-size: 60px;
+                  margin-bottom: 20px;
+                  text-transform: capitalize;
+                  font-weight: 700; }
+                .banner_area3 .banner_inner .banner_content .page_link {
+                  display: inline-block;
+                  border: 2px solid #000;
+                  border-radius: 50px;
+                  padding: 0px 20px;
+                  line-height: 46px; }
+                  .banner_area3 .banner_inner .banner_content .page_link a {
+                    font-size: 14px;
+                    color: #000;
+                    font-family: "Roboto", sans-serif;
+                    margin-right: 14px;
+                    position: relative; }
+                    .banner_area3 .banner_inner .banner_content .page_link a:before {
+                      position: absolute;
+                      content: "";
+                      height: 200%;
+                      width: 1px;
+                      right: -10px;
+                      top: 54%;
+                      background: #000;
+                      -webkit-transform: translateY(-50%);
+                      -moz-transform: translateY(-50%);
+                      -ms-transform: translateY(-50%);
+                      -o-transform: translateY(-50%);
+                      transform: translateY(-50%); }
+                    .banner_area3 .banner_inner .banner_content .page_link a:last-child {
+                      margin-right: 0px; }
+                      .banner_area3 .banner_inner .banner_content .page_link a:last-child:before {
+                        display: none; }
+          
 /* End Home Banner Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -2942,8 +2995,9 @@ Loader
       text-align: center;
       margin: 0 auto;
       display: block; }
+      
     
-    .mouse-wheel {
+      .mouse-wheel {
       height: 80px;
       margin: 0 auto 0;
       display: block;
@@ -2957,6 +3011,21 @@ Loader
       -moz-animation: 1.6s ease infinite wheel-up-down;
       animation: 1.6s ease infinite wheel-up-down;
       }
+
+      .mouse-wheel2 {
+        height: 80px;
+        margin-left: 98%;
+        display: block;
+        width: 30px;
+        background: transparent;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-animation: 1.6s ease infinite wheel-up-down;
+        -moz-animation: 1.6s ease infinite wheel-up-down;
+        animation: 1.6s ease infinite wheel-up-down;
+        }
     
     @-webkit-keyframes wheel-up-down {
       100% {
@@ -3013,3 +3082,7 @@ Loader
     border: 1px solid red; }
 
 /*======================= End Subscribe Btns =====================  */
+
+/* Back to Top Buttons */
+
+/* End  Back to Top Buttons */
