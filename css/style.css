@@ -411,7 +411,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/common-banner.jpg);
+    background-image: url(../img/banner/common-banner.png);
     background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
@@ -2884,13 +2884,6 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-
-/* 
-Loader
-*/
-/* #bith{
-  color: #0077ff;
-} */
 #ftco-loader {
   position: fixed;
   width: 96px;
@@ -3014,7 +3007,7 @@ Loader
 
       .mouse-wheel2 {
         height: 80px;
-        margin-left: 98%;
+        margin-left: 90%;
         display: block;
         width: 30px;
         background: transparent;
@@ -3083,6 +3076,39 @@ Loader
 
 /*======================= End Subscribe Btns =====================  */
 
-/* Back to Top Buttons */
 
-/* End  Back to Top Buttons */
+
+/*======================= Download BluePill Btn =====================  */
+
+.download-btn{
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  outline: none !important;  
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.download-btn i {
+ padding: 10px 20px 0px 20px;
+ font-size: 50px;
+ color: white;
+}
+
+.download-btn p {
+  padding: 0px 50px 40px 80px;
+  margin-top: -45px;
+  font-size: 18px;
+  color: white;
+ }
+
+.download-btn:hover{
+  background: #0077ffce;
+}
+
+/*======================= End Download BluePill Btn =====================  */
