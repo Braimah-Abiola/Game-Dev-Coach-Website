@@ -550,7 +550,55 @@ Contact Banner
                       margin-right: 0px; }
                       .banner_area3 .banner_inner .banner_content .page_link a:last-child:before {
                         display: none; }
-          
+
+                        .banner_area4 {
+                          position: relative;
+                          z-index: 1;
+                          min-height: 400px; }
+                          .banner_area4 .banner_inner {
+                            position: relative;
+                            overflow: hidden;
+                            width: 100%;
+                            min-height: 400px;
+                            background-image: url(../img/banner/connect-banner.jpg);
+                            background-size: cover;
+                            z-index: 1; }
+                            .banner_area4 .banner_inner .banner_content h1 {
+                              color: rgb(0, 0, 0);
+                              font-size: 80px;
+                              margin-bottom: 20px;
+                              text-transform: capitalize;
+                              font-weight: 700; }
+                            .banner_area4 .banner_inner .banner_content .page_link {
+                              display: inline-block;
+                              border: 2px solid #000;
+                              border-radius: 50px;
+                              padding: 0px 20px;
+                              line-height: 46px; }
+                              .banner_area4 .banner_inner .banner_content .page_link a {
+                                font-size: 14px;
+                                color: #000;
+                                font-family: "Roboto", sans-serif;
+                                margin-right: 14px;
+                                position: relative; }
+                                .banner_area4 .banner_inner .banner_content .page_link a:before {
+                                  position: absolute;
+                                  content: "";
+                                  height: 200%;
+                                  width: 1px;
+                                  right: -10px;
+                                  top: 54%;
+                                  background: #000;
+                                  -webkit-transform: translateY(-50%);
+                                  -moz-transform: translateY(-50%);
+                                  -ms-transform: translateY(-50%);
+                                  -o-transform: translateY(-50%);
+                                  transform: translateY(-50%); }
+                                .banner_area4 .banner_inner .banner_content .page_link a:last-child {
+                                  margin-right: 0px; }
+                                  .banner_area4 .banner_inner .banner_content .page_link a:last-child:before {
+                                    display: none; }
+                    
 /* End Home Banner Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -1882,3 +1930,13 @@ Contact Banner
   margin-bottom: 20px;
 }
 
+.connect{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.con{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
