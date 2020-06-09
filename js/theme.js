@@ -11,7 +11,6 @@
   $(".fitscreen").css("height", fitscreen);
 
   var nav_offset_top = $("header").height() + 50;
-  
   /*-------------------------------------------------------------------------------
 	  Navbar 
 	-------------------------------------------------------------------------------*/
@@ -30,6 +29,7 @@
     }
   }
   navbarFixed();
+
 
   /*=================================
     Javascript for banner area carousel
@@ -74,4 +74,31 @@
 		}, 1);
 	};
 	loader();
+
+
+  /*----------------------------------------------------*/
+  /*  Isotope Fillter js
+    /*----------------------------------------------------*/
+  $(window).on("load", function() {
+    $(".projects_fillter ul li").on("click", function() {
+      $(".projects_fillter ul li").removeClass("active");
+      $(this).addClass("active");
+
+      var data = $(this).attr("data-filter");
+      $workGrid.isotope({
+        filter: data
+      });
+    });
+
+    if (document.getElementById("work")) {
+      var $workGrid = $(".projects_inner").isotope({
+        itemSelector: ".grid-item",
+        percentPosition: true,
+        masonry: {
+          columnWidth: ".grid-sizer"
+        }
+      });
+    }
+  });
+  
 })(jQuery);

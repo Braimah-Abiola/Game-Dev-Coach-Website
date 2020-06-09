@@ -1528,13 +1528,14 @@ Contact Banner
     border: 1px solid transparent;
     height: 50px; }
   .newsletter_form .navbar-form .genric-btn {
-    color: #22195e;
+    color: #000000;
     border: none;
     border-radius: 50px;
     height: 40px;
+    width: 180px;
     line-height: 40px;
     margin: 4px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     background: #ffd200; }
     .newsletter_form .navbar-form .genric-btn:hover {
