@@ -580,7 +580,7 @@ Contact Banner
     position: absolute;
     width: 100%;
     left: 50%;
-    top: 48%;
+    bottom: 0px;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -609,7 +609,7 @@ Contact Banner
       }
     .projects_item .projects_text p {
       margin-bottom: 0px;
-      font-size: 16px;
+      font-size: 15px;
       color: #fff; }
   .projects_item:hover:before {
     opacity: 0.55; }
@@ -618,13 +618,12 @@ Contact Banner
     visibility: visible;
     bottom: 30px; }
   .projects_item .projects_text a {
-    margin-bottom: 0px;
     color: #fff;
-    font-size: 30px; }
+    font-size: 50px; }
   .projects_text a:hover  {
       visibility: visible;
       color: red; }
-
+      
 /* End Projects Area css
 ============================================================================================ */
 /* Portfolio Details Area css
