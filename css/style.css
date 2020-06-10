@@ -1947,14 +1947,15 @@ Contact Banner
   cursor: pointer;
   padding-bottom: 15px; }
   .buy_post img {
-    max-width: 100%; }
+    width: 400px;
+    height: 300px; }
   .buy_post .buy_details {
     position: absolute;
     top: 20px;
     left: 20px;
     right: 20px;
     bottom: 30px;
-    background: rgba(34, 34, 34, 0.137);
+    background: rgba(0, 0, 0, 0.13);
     color: #fff;
     transition: all 0.3s linear;
     display: flex;
@@ -1984,7 +1985,7 @@ Contact Banner
       width: 100%;
       height: 1px; }
   .buy_post:hover .buy_details {
-    background: #476ce4;
+    background: #476ce4af;
     opacity: .9; }
   .buy_post:hover h5 {
     color: #fff; }
