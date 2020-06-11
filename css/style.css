@@ -410,49 +410,49 @@ button:focus {
   position: relative;
   z-index: 1;
   min-height: 400px; }
-  .banner_area .banner_inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 400px;
-    background-image: url(../img/banner/common-banner.png);
-    background-size: cover;
-    z-index: 1; }
-    .banner_area .banner_inner .banner_content h1 {
-      color: #000;
-      font-size: 60px;
-      margin-bottom: 20px;
-      text-transform: capitalize;
-      font-weight: 700; }
-    .banner_area .banner_inner .banner_content .page_link {
-      display: inline-block;
-      border: 2px solid #000;
-      border-radius: 50px;
-      padding: 0px 20px;
-      line-height: 46px; }
-      .banner_area .banner_inner .banner_content .page_link a {
-        font-size: 14px;
-        color: #000;
-        font-family: "Roboto", sans-serif;
-        margin-right: 14px;
-        position: relative; }
-        .banner_area .banner_inner .banner_content .page_link a:before {
-          position: absolute;
-          content: "";
-          height: 200%;
-          width: 1px;
-          right: -10px;
-          top: 54%;
-          background: #000;
-          -webkit-transform: translateY(-50%);
-          -moz-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          -o-transform: translateY(-50%);
-          transform: translateY(-50%); }
-        .banner_area .banner_inner .banner_content .page_link a:last-child {
-          margin-right: 0px; }
-          .banner_area .banner_inner .banner_content .page_link a:last-child:before {
-            display: none; }
+.banner_area .banner_inner {
+  position: relative;
+ overflow: hidden;
+ width: 100%;
+ min-height: 400px;
+ background-image: url(../img/banner/common-banner.png);
+ background-size: cover;
+ z-index: 1; }
+.banner_area .banner_inner .banner_content h1 {
+  color: #000;
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700; }
+.banner_area .banner_inner .banner_content .page_link {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 0px 20px;
+  line-height: 46px; }
+.banner_area .banner_inner .banner_content .page_link a {
+  font-size: 14px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  margin-right: 14px;
+  position: relative; }
+.banner_area .banner_inner .banner_content .page_link a:before {
+  position: absolute;
+  content: "";
+  height: 200%;
+  width: 1px;
+  right: -10px;
+  top: 54%;
+  background: #000;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px; }
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+  display: none; }
 
 /*
        
@@ -463,145 +463,143 @@ Contact Banner
   position: relative;
   z-index: 1;
   min-height: 400px; }
-  .banner_area2 .banner_inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 400px;
-    background-image: url(../img/banner/team-banner.jpg);
-    background-size: cover;
-    z-index: 1; }
-    .banner_area2 .banner_inner .banner_content h1 {
-      color: #000;
-      font-size: 60px;
-      margin-bottom: 20px;
-      text-transform: capitalize;
-      font-weight: 700; }
-    .banner_area2 .banner_inner .banner_content .page_link {
-      display: inline-block;
-      border: 2px solid #000;
-      border-radius: 50px;
-      padding: 0px 20px;
-      line-height: 46px; }
-      .banner_area2 .banner_inner .banner_content .page_link a {
-        font-size: 14px;
-        color: #000;
-        font-family: "Roboto", sans-serif;
-        margin-right: 14px;
-        position: relative; }
-        .banner_area2 .banner_inner .banner_content .page_link a:before {
-          position: absolute;
-          content: "";
-          height: 200%;
-          width: 1px;
-          right: -10px;
-          top: 54%;
-          background: #000;
-          -webkit-transform: translateY(-50%);
-          -moz-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          -o-transform: translateY(-50%);
-          transform: translateY(-50%); }
-        .banner_area2 .banner_inner .banner_content .page_link a:last-child {
-          margin-right: 0px; }
-          .banner_area2 .banner_inner .banner_content .page_link a:last-child:before {
-            display: none; }
-
-            .banner_area3 {
-              position: relative;
-              z-index: 1;
-              min-height: 400px; }
-              .banner_area3 .banner_inner {
-                position: relative;
-                overflow: hidden;
-                width: 100%;
-                min-height: 400px;
-                background-image: url(../img/banner/contact-banner.jpg);
-                background-size: cover;
-                z-index: 1; }
-                .banner_area3 .banner_inner .banner_content h1 {
-                  color: #000;
-                  font-size: 60px;
-                  margin-bottom: 20px;
-                  text-transform: capitalize;
-                  font-weight: 700; }
-                .banner_area3 .banner_inner .banner_content .page_link {
-                  display: inline-block;
-                  border: 2px solid #000;
-                  border-radius: 50px;
-                  padding: 0px 20px;
-                  line-height: 46px; }
-                  .banner_area3 .banner_inner .banner_content .page_link a {
-                    font-size: 14px;
-                    color: #000;
-                    font-family: "Roboto", sans-serif;
-                    margin-right: 14px;
-                    position: relative; }
-                    .banner_area3 .banner_inner .banner_content .page_link a:before {
-                      position: absolute;
-                      content: "";
-                      height: 200%;
-                      width: 1px;
-                      right: -10px;
-                      top: 54%;
-                      background: #000;
-                      -webkit-transform: translateY(-50%);
-                      -moz-transform: translateY(-50%);
-                      -ms-transform: translateY(-50%);
-                      -o-transform: translateY(-50%);
-                      transform: translateY(-50%); }
-                    .banner_area3 .banner_inner .banner_content .page_link a:last-child {
-                      margin-right: 0px; }
-                      .banner_area3 .banner_inner .banner_content .page_link a:last-child:before {
-                        display: none; }
-
-                        .banner_area4 {
-                          position: relative;
-                          z-index: 1;
-                          min-height: 400px; }
-                          .banner_area4 .banner_inner {
-                            position: relative;
-                            overflow: hidden;
-                            width: 100%;
-                            min-height: 400px;
-                            background-image: url(../img/banner/connect-banner.jpg);
-                            background-size: cover;
-                            z-index: 1; }
-                            .banner_area4 .banner_inner .banner_content h1 {
-                              color: rgb(0, 0, 0);
-                              font-size: 80px;
-                              margin-bottom: 20px;
-                              text-transform: capitalize;
-                              font-weight: 700; }
-                            .banner_area4 .banner_inner .banner_content .page_link {
-                              display: inline-block;
-                              border: 2px solid #000;
-                              border-radius: 50px;
-                              padding: 0px 20px;
-                              line-height: 46px; }
-                              .banner_area4 .banner_inner .banner_content .page_link a {
-                                font-size: 14px;
-                                color: #000;
-                                font-family: "Roboto", sans-serif;
-                                margin-right: 14px;
-                                position: relative; }
-                                .banner_area4 .banner_inner .banner_content .page_link a:before {
-                                  position: absolute;
-                                  content: "";
-                                  height: 200%;
-                                  width: 1px;
-                                  right: -10px;
-                                  top: 54%;
-                                  background: #000;
-                                  -webkit-transform: translateY(-50%);
-                                  -moz-transform: translateY(-50%);
-                                  -ms-transform: translateY(-50%);
-                                  -o-transform: translateY(-50%);
-                                  transform: translateY(-50%); }
-                                .banner_area4 .banner_inner .banner_content .page_link a:last-child {
-                                  margin-right: 0px; }
-                                  .banner_area4 .banner_inner .banner_content .page_link a:last-child:before {
-                                    display: none; }
+.banner_area2 .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 400px;
+  background-image: url(../img/banner/team-banner.jpg);
+  background-size: cover;
+  z-index: 1; }
+  .banner_area2 .banner_inner .banner_content h1 {
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 700; }
+  .banner_area2 .banner_inner .banner_content .page_link {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 0px 20px;
+    line-height: 46px; }
+.banner_area2 .banner_inner .banner_content .page_link a {
+  font-size: 14px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  margin-right: 14px;
+  position: relative; }
+.banner_area2 .banner_inner .banner_content .page_link a:before {
+  position: absolute;
+  content: "";
+  height: 200%;
+  width: 1px;
+  right: -10px;
+  top: 54%;
+  background: #000;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+.banner_area2 .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px; }
+.banner_area2 .banner_inner .banner_content .page_link a:last-child:before {
+  display: none; }
+.banner_area3 {
+  position: relative;
+  z-index: 1;
+  min-height: 400px; }
+.banner_area3 .banner_inner {
+  position: relative;
+  flow: hidden;
+  width: 100%;
+  min-height: 400px;
+  background-image: url(../img/banner/contact-banner.jpg);
+  background-size: cover;
+  z-index: 1; }
+.banner_area3 .banner_inner .banner_content h1 {
+   color: #000;
+   font-size: 60px;
+   margin-bottom: 20px;
+   text-transform: capitalize;
+   font-weight: 700; }
+.banner_area3 .banner_inner .banner_content .page_link {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 0px 20px;
+  line-height: 46px; }
+.banner_area3 .banner_inner .banner_content .page_link a {
+  font-size: 14px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  margin-right: 14px;
+  position: relative; }
+.banner_area3 .banner_inner .banner_content .page_link a:before {
+  position: absolute;
+  content: "";
+  height: 200%;
+  width: 1px;
+  right: -10px;
+  top: 54%;
+  background: #000;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+.banner_area3 .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px; }
+.banner_area3 .banner_inner .banner_content .page_link a:last-child:before {
+    display: none; }
+.banner_area4 {
+  position: relative;
+  z-index: 1;
+  min-height: 400px; }
+.banner_area4 .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 400px;
+  background-image: url(../img/banner/connect-banner.jpg);
+  background-size: cover;
+  z-index: 1; }
+.banner_area4 .banner_inner .banner_content h1 {
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700; }
+.banner_area4 .banner_inner .banner_content .page_link {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 0px 20px;
+  line-height: 46px; }
+.banner_area4 .banner_inner .banner_content .page_link a {
+    font-size: 14px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    margin-right: 14px;
+    position: relative; }
+.banner_area4 .banner_inner .banner_content .page_link a:before {
+   position: absolute;
+   content: "";
+   height: 200%;
+   width: 1px;
+   right: -10px;
+   top: 54%;
+   background: #000;
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+   transform: translateY(-50%); }
+.banner_area4 .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px; }
+.banner_area4 .banner_inner .banner_content .page_link a:last-child:before {
+  display: none; }
                     
 /* End Home Banner Area css
 ============================================================================================ */
@@ -1000,7 +998,6 @@ Contact Banner
     max-width: 100%; }
 
 
-/* HC{ */
 /*============ blog_left_sidebar css ==============*/
 .blog_item {
   margin-bottom: 40px; }
@@ -1278,10 +1275,6 @@ Contact Banner
   border-color: #eee; }
 
 /*============== contact_area css ================*/
-.mapBox {
-  height: 420px;
-  margin-top: 80px; }
-
 .contact_info .info_item {
   position: relative;
   padding-left: 45px; }
@@ -1536,7 +1529,8 @@ Contact Banner
   background-size: cover;
  }
   .newsletter-area .main-title h1 {
-    color: rgb(255, 255, 255); }
+    color: rgb(255, 255, 255);
+    font-size: 50px;}
     .newsletter-area .main-title h1:before {
       background: rgb(35, 112, 255); }
     .newsletter-area .main-title h1:after {
