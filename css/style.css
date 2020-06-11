@@ -353,9 +353,13 @@ button:focus {
 .banner-area .slide_bg1 {
   background: url(../img/banner/banner-bg1.jpg);
  background-size: cover; }
- .banner-area .slide_bg2 {
+.banner-area .slide_bg2 {
   background: url(../img/banner/team-banner.jpg);
  background-size: cover; }
+.banner-area .slide_bg3 {
+  background: url(../img/banner/donate-banner.JPG);
+ background-size: cover; }
+
 
 
 @media (max-width: 991px) {
