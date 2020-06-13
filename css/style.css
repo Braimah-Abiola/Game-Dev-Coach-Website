@@ -515,7 +515,6 @@ Contact Banner
   min-height: 400px; }
 .banner_area3 .banner_inner {
   position: relative;
-  flow: hidden;
   width: 100%;
   min-height: 400px;
   background-image: url(../img/banner/contact-banner.jpg);
@@ -1725,7 +1724,8 @@ Contact Banner
 
 /* End Footer Area css
 ============================================================================================ */
-/*---------------------------------------------------- */
+
+/*----------------------- Start Loader ----------------------------- */
 #ftco-loader {
   position: fixed;
   width: 96px;
@@ -1817,80 +1817,88 @@ Contact Banner
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    .mouse {
-      position: absolute;
-      z-index: 2; }
-    
-    .mouse-icon {
-      height: 80px;
-      border: 1px solid transparent;
-      background: transparent;
-      cursor: pointer;
-      position: relative;
-      text-align: center;
-      margin: 0 auto;
-      display: block; }
-      
-    
-      .mouse-wheel {
-      height: 80px;
-      margin: 0 auto 0;
-      display: block;
-      width: 30px;
-      background: transparent;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      -webkit-animation: 1.6s ease infinite wheel-up-down;
-      -moz-animation: 1.6s ease infinite wheel-up-down;
-      animation: 1.6s ease infinite wheel-up-down;
-      }
+/*----------------------- End Loader ----------------------------- */
 
-      .mouse-wheel2 {
-        height: 80px;
-        margin-left: 90%;
-        display: block;
-        width: 30px;
-        background: transparent;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        -webkit-animation: 1.6s ease infinite wheel-up-down;
-        -moz-animation: 1.6s ease infinite wheel-up-down;
-        animation: 1.6s ease infinite wheel-up-down;
-        }
-    
-    @-webkit-keyframes wheel-up-down {
-      100% {
-        margin-top: 34px;
-        opacity: 1; }
-      30% {
-        opacity: 1; }
-      0% {
-        margin-top: 2px;
-        opacity: 0; } }
-    
-    @-moz-keyframes wheel-up-down {
-      100% {
-        margin-top: 34px;
-        opacity: 1; }
-      30% {
-        opacity: 1; }
-      0% {
-        margin-top: 2px;
-        opacity: 0; } }
-    
-    @keyframes wheel-up-down {
-      100% {
-        margin-top: 34px;
-        opacity: 1; }
-      30% {
-        opacity: 1; }
-      0% {
-        margin-top: 2px;
-        opacity: 0; } }
+
+/*----------------------- Start Arrow + Animation ----------------------------- */
+
+.mouse {
+  position: absolute;
+  z-index: 2; }
+
+.mouse-icon {
+  height: 80px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+  
+
+.mouse-wheel {
+  height: 80px;
+  margin: 0 auto 0;
+  display: block;
+  width: 30px;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+  -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+  }
+
+.mouse-wheel2 {
+  height: 80px;
+  margin-left: 90%;
+  display: block;
+  width: 30px;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+  -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+  }
+
+@-webkit-keyframes wheel-up-down {
+  100% {
+    margin-top: 34px;
+    opacity: 1; }
+  30% {
+    opacity: 1; }
+  0% {
+    margin-top: 2px;
+    opacity: 0; } }
+
+@-moz-keyframes wheel-up-down {
+  100% {
+    margin-top: 34px;
+    opacity: 1; }
+  30% {
+    opacity: 1; }
+  0% {
+    margin-top: 2px;
+    opacity: 0; } }
+
+@keyframes wheel-up-down {
+  100% {
+    margin-top: 34px;
+    opacity: 1; }
+  30% {
+    opacity: 1; }
+  0% {
+    margin-top: 2px;
+    opacity: 0; } }
+
+/*----------------------- Arrow + Animation ----------------------------- */
+
 
 /*======================= Download BluePill Btn =====================  */
 
@@ -1909,9 +1917,9 @@ Contact Banner
 }
 
 .download-btn i {
- padding: 10px 20px 0px 20px;
- font-size: 50px;
- color: white;
+  padding: 10px 20px 0px 20px;
+  font-size: 50px;
+  color: white;
 }
 
 .download-btn p {
@@ -1924,7 +1932,12 @@ Contact Banner
 .download-btn:hover{
   background: #0077ffce;
 }
+
 /*======================= End Download BluePill Btn =====================  */
+
+
+/*======================= Start Logos Section =====================  */
+
 .logos{
   width: 150px;
   height: 150px;
@@ -1941,59 +1954,64 @@ Contact Banner
   height: 150px;
   margin-bottom: 20px;
 }
-/* Gear Area */
+
+/*======================= End Logos Section =====================  */
+
+
+
+/*======================= My Gear Section =====================  */
 .buy_post {
   position: relative;
   text-align: center;
   cursor: pointer;
   padding-bottom: 15px; }
-  .buy_post img {
-    width: 400px;
-    height: 300px; }
-  .buy_post .buy_details {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 30px;
-    background: rgba(0, 0, 0, 0.13);
-    color: #fff;
-    transition: all 0.3s linear;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-   
-    .buy_post .buy_details h5 {
-      margin-bottom: 0px;
-      font-size: 18px;
-      line-height: 26px;
-      text-transform: uppercase;
-      color: transparent;
-      position: relative; }
-    .buy_post .buy_details p {
-      font-weight: 300;
-      color: transparent;
-      font-size: 14px;
-      line-height: 26px;
-      margin-bottom: 0px;
-      -webkit-transition: all 0.4s ease 0s;
-      -moz-transition: all 0.4s ease 0s;
-      -o-transition: all 0.4s ease 0s;
-      transition: all 0.4s ease 0s; }
-    .buy_post .buy_details .border_line {
-      margin: 10px 0px;
-      background: transparent;
-      width: 100%;
-      height: 1px; }
-  .buy_post:hover .buy_details {
-    background: #476ce4af;
-    opacity: .9; }
-  .buy_post:hover h5 {
-    color: #fff; }
-  .buy_post:hover p {
-    color: #fff; }
-  .buy_post:hover .border_line {
-    background: #fff; }
+.buy_post img {
+  width: 400px;
+  height: 300px; }
+.buy_post .buy_details {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 30px;
+  background: rgba(0, 0, 0, 0.13);
+  color: #fff;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+ 
+.buy_post .buy_details h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: transparent;
+  position: relative; }
+.buy_post .buy_details p {
+  font-weight: 300;
+  color: transparent;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+.buy_post .buy_details .border_line {
+  margin: 10px 0px;
+  background: transparent;
+  width: 100%;
+  height: 1px; }
+.buy_post:hover .buy_details {
+  background: #476ce4af;
+  opacity: .9; }
+.buy_post:hover h5 {
+  color: #fff; }
+.buy_post:hover p {
+  color: #fff; }
+.buy_post:hover .border_line {
+  background: #fff; }
 
 .buy_area{
   text-align: center;
@@ -2010,16 +2028,21 @@ Contact Banner
   color: #000000;
   line-height: 34px;
   display: inline-block; }
-  .buy:hover {
-    background: #ffc400;
-    color: rgb(0, 0, 0); }
-/* Gear Area */
+.buy:hover {
+  background: #ffc400;
+  color: rgb(0, 0, 0); }
 
-/* Seperator */
+/*======================= End My Gear Section ===================== */
+
+
+/*===================== Seperator ==========================*/
+
 .seperator{
   border: 10px thick black;
 }
-/* Seperator */
+
+/*==================== End Seperator ===========================*/
+
 
 /*======================= Donate to Paypal Section =====================  */
 
@@ -2035,8 +2058,7 @@ Contact Banner
 /*======================= Merch Section ===================== */
 
 .merch_area{
-height: 500px;
-background-color: #eccf4a;
+  background-color: #eccf4a;
 }
 
 /*======================= End Merch Section ===================== */
