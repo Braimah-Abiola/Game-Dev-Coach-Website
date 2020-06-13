@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/logoblack.png" type="image/png">
-	<title>Donate</title>
+	<title>Merch</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -43,9 +43,9 @@
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							<li class="nav-item"><a class="nav-link" href="mygear.html">My Gear</a></li>
 							<li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
-							<li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+							<li class="nav-item active"><a class="nav-link" href="shop.html">Shop</a></li>
 							<li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-							<li class="nav-item active"><a class="nav-link" href="donate.html">Donate</a></li>
+							<li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 						</ul>
 					</div>
@@ -57,13 +57,13 @@
 
 	<!--================Home Banner Area =================-->
 <section class="banner-area owl-carousel" id="home">
-		<div class="single_slide_banner slide_bg3">
+		<div class="single_slide_banner slide_bg4">
 			<div class="container">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12 justify-content-center">
 						<h1 style="margin-top: 30px;">GDC</h1>
-						<h3>Donate / Support</h3>
-							<a href="#work" class="primary-btn" style="font-size: 22px;"> <i class="fa fa-money"></i> </a>
+						<h3>Shop / Buy Merch</h3>
+							<a href="#" class="primary-btn" style="font-size: 36px;"> <i class="lnr lnr-shirt"></i> </a>
 						<div>
 							<a class="mouse-icon" href="#">
 								<div class="mouse-wheel"><i class="lnr lnr-arrow-up" style="font-size: 40px; font-weight: 900; color: rgb(0, 102, 255);"></i></div>
@@ -75,45 +75,34 @@
 		</div>	
 </section>
 
-<section class="donate_area" id="work">
+<!--================Start Info Box =================-->
+<section class="merch_area">
     <div class="container">
-        <div class="main-title">
-            <h1>Support</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit hic laudantium eum obcaecati quidem architecto ipsa eveniet vel quae, eius illum corrupti illo fugiat esse aspernatur vitae voluptate ipsam!</p>
+        <div class="main-title" style="padding-top: 100px;">
+            <h1>
+                About GDC Merch <i class="lnr lnr-thumbs-up"></i>
+            </h1>
+            <p style="color: rgb(48, 48, 48);">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae recusandae tempora veniam eius inventore ex architecto autem iste. Omnis officiis nulla ab blanditiis, nisi id aut? Ut expedita fugit sint!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ut consequatur enim maxime quasi tempore aliquid, iste repudiandae, facilis eos culpa beatae asperiores sunt blanditiis quidem sit laborum praesentium voluptate!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa illum adipisci consequuntur praesentium velit dolorem, blanditiis at suscipit laborum dolore odit magni quidem officiis veritatis. Doloremque modi eligendi explicabo.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ipsa cumque facilis soluta ipsam nam quisquam consequatur illum excepturi, architecto dolor harum eius ullam ratione eveniet ex cum? Rerum, ratione.
+            </p>
         </div>
-
-        <!-- Code From PayPal.com -->
-        <div id="paypal-button-container"></div>
-        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal',
-          
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '4'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
-        <!-- Code From PayPal.com -->
-
+        <div class="sub-title" style="padding-top: 30px;">
+            <h1>
+                Disclaimer <i class="lnr lnr-warning"></i>
+            </h1>
+            <p style="color: rgb(48, 48, 48);">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae recusandae tempora veniam eius inventore ex architecto autem iste. Omnis officiis nulla ab blanditiis, nisi id aut? Ut expedita fugit sint!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ut consequatur enim maxime quasi tempore aliquid, iste repudiandae, facilis eos culpa beatae asperiores sunt blanditiis quidem sit laborum praesentium voluptate!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa illum adipisci consequuntur praesentium velit dolorem, blanditiis at suscipit laborum dolore odit magni quidem officiis veritatis. Doloremque modi eligendi explicabo.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ipsa cumque facilis soluta ipsam nam quisquam consequatur illum excepturi, architecto dolor harum eius ullam ratione eveniet ex cum? Rerum, ratione.
+            </p>
+        </div>
     </div>
-</section>
+
+<!--================End Info Box =================-->	
   
 <!--================ Start Footer Area =================-->
 	<footer class="footer_area section_gap">
@@ -123,7 +112,7 @@
 					<aside class="f_widget social_widget">
 						<div class="f_logo">
 							<a href="#home">
-							    <img src="img/logoblack.png">
+							    <img src="img/logoblack2.png">
 						    </a>
 						</div>
 						<div class="f_title">
@@ -138,7 +127,8 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+    </footer>
+</section>
 <!--================End Footer Area =================-->	
 	
 	<!-- loader -->
