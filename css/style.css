@@ -232,7 +232,7 @@ button:focus {
     border-radius: 0px;
     width: 100%; }
     .header_area .navbar .nav .nav-item {
-      margin-right: 45px; }
+      margin-right: 35px; }
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/100px "Roboto", sans-serif;
         text-transform: capitalize;
@@ -298,7 +298,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #f3695c;
+              background: #eccf4a;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
