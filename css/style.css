@@ -359,6 +359,10 @@ button:focus {
 .banner-area .slide_bg3 {
   background: url(../img/banner/donate-banner.JPG);
  background-size: cover; }
+.banner-area .slide_bg4 {
+  background: url(../img/banner/merch-banner.jpg);
+  background-size: cover;}
+
 
 
 
@@ -401,7 +405,6 @@ button:focus {
     @media (max-width: 991px) {
       .banner-content h3 {
         font-size: 20px; } }
-
 
 
 /* End Home Banner Area css
@@ -2018,9 +2021,22 @@ Contact Banner
 }
 /* Seperator */
 
+/*======================= Donate to Paypal Section =====================  */
+
 .donate_area{
   width: 100%;
   height: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+/*======================= End Donate to Paypal Section ===================== */
+
+/*======================= Merch Section ===================== */
+
+.merch_area{
+height: 500px;
+background-color: #eccf4a;
+}
+
+/*======================= End Merch Section ===================== */
