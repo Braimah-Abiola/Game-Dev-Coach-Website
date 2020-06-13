@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/logoblack.png" type="image/png">
+	<title>Donate</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand" href="index.html"><img src="img/logowhite.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="mygear.html">My Gear</a></li>
+							<li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+							<li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+							<li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+							<li class="nav-item active"><a class="nav-link" href="donate.html">Donate</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+<section class="banner-area owl-carousel" id="home">
+		<div class="single_slide_banner slide_bg3">
+			<div class="container">
+				<div class="row fullscreen d-flex align-items-center">
+					<div class="banner-content col-lg-12 justify-content-center">
+						<h1 style="margin-top: 30px;">GDC</h1>
+						<h3>Donate / Support</h3>
+							<a href="#work" class="primary-btn" style="font-size: 22px;"> <i class="fa fa-money"></i> </a>
+						<div>
+							<a class="mouse-icon" href="#">
+								<div class="mouse-wheel"><i class="lnr lnr-arrow-up" style="font-size: 40px; font-weight: 900; color: rgb(0, 102, 255);"></i></div>
+							</a>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>	
+</section>
+
+<section class="donate_area" id="work">
+    <div class="container">
+        <div class="main-title">
+            <h1>Support</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit hic laudantium eum obcaecati quidem architecto ipsa eveniet vel quae, eius illum corrupti illo fugiat esse aspernatur vitae voluptate ipsam!</p>
+        </div>
+
+        <!-- Code From PayPal.com -->
+        <div id="paypal-button-container"></div>
+        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '4'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
+        <!-- Code From PayPal.com -->
+
+    </div>
+</section>
+  
+<!--================ Start Footer Area =================-->
+	<footer class="footer_area section_gap">
+		<div class="container">
+			<div class="row footer_inner justify-content-center">
+				<div class="col-lg-6 text-center">
+					<aside class="f_widget social_widget">
+						<div class="f_logo">
+							<a href="#home">
+							    <img src="img/logoblack.png">
+						    </a>
+						</div>
+						<div class="f_title">
+							<h4>Thanks for Supporting <i class="fa fa-heart"></i></h4>
+						</div>
+						<ul class="list">
+							<li><a href="https://www.youtube.com/GameDevCoach"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="https://www.github.com/Braimah-Abiola"><i class="fa fa-github"></i></a></li>
+							<li><a href="https://www.instagram.com/iambraimahabiola"><i class="fa fa-instagram"></i></a></li>							
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--================End Footer Area =================-->	
+	
+	<!-- loader -->
+ <div id="ftco-loader" class="show fullscreen">
+	<svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+	  <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#0077ff"/>
+	</svg>
+ </div> 
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	
+	<script src="js/theme.js"></script>
+</body>
+</html>
