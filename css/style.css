@@ -2069,3 +2069,30 @@ Contact Banner
 }
 
 /*======================= End Merch Section ===================== */
+
+
+/*======================= Start Warning Text ===================== */
+
+.warning-btn {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 46px;
+  padding: 0 40px;
+  outline: none !important;
+  text-align: center;
+  text-transform: capitalize;
+  background-color:#476ce4;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+.warning-btn:hover{
+  color: red;
+}
+
+/*======================= End Warning Text ===================== */
