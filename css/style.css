@@ -2116,6 +2116,11 @@ color: rgba(29, 29, 29, 0.822);
 margin-bottom: 40px;
 }
 
+.mockup{
+  height: 360px;
+  width: 265px;
+}
+
 /* ===================== Merch Gap ============================= */
 
 .merch_gap{
