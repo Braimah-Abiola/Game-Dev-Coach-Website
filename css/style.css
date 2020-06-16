@@ -2095,3 +2095,32 @@ button:focus {
 }
 
 /*======================= End Warning Text ===================== */
+
+/*---------------------
+  Related Products
+-----------------------*/
+
+.related-product {
+	padding-top: 60px;
+}
+
+.related-product .section-title {
+	margin-bottom: 60px;
+}
+
+.product-text{
+  color: black;
+}
+.product-text p{
+color: rgba(29, 29, 29, 0.822);
+margin-bottom: 40px;
+}
+
+/* ===================== Merch Gap ============================= */
+
+.merch_gap{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+/* ===================== End Merch Gap ========================== */
