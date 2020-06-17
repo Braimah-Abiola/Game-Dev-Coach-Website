@@ -375,6 +375,9 @@ button:focus {
 .banner-area .slide_bg4 {
   background: url(../img/banner/merch-banner.jpg);
   background-size: cover;}
+.banner-area .slide_bg5 {
+  background: url(../img/banner/service-banner.jpg);
+  background-size: cover;}
 
 @media (max-width: 991px) {
 .banner-area .fullscreen {
