@@ -578,20 +578,20 @@ button:focus {
   background-size: cover;
   z-index: 1; }
 .banner_area4 .banner_inner .banner_content h1 {
-  color: rgb(0, 0, 0);
-  font-size: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
   margin-bottom: 20px;
   text-transform: capitalize;
   font-weight: 700; }
 .banner_area4 .banner_inner .banner_content .page_link {
   display: inline-block;
-  border: 2px solid #000;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 50px;
   padding: 0px 20px;
   line-height: 46px; }
 .banner_area4 .banner_inner .banner_content .page_link a {
   font-size: 14px;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   margin-right: 14px;
   position: relative; }
@@ -602,7 +602,7 @@ button:focus {
   width: 1px;
   right: -10px;
   top: 54%;
-  background: #000;
+  background: rgb(255, 255, 255);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
