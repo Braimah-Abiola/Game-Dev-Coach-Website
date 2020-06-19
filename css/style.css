@@ -2042,6 +2042,11 @@ button:focus {
   background: #ffc400;
   color: rgb(0, 0, 0); }
 
+.gear_categorie_area {
+  padding-top: 10px;
+  padding-bottom: 80px; }
+
+
 /*======================= End My Gear Section ===================== */
 
 
@@ -2133,10 +2138,10 @@ margin-bottom: 40px;
 
 /* ===================== End Merch Gap ========================== */
 
-/* =============== Start Community Page Backgound color gradient ==================== */
+/* =============== DISCLAIMER ==================== */
 
-.bg-gradient{
-  background-color: coral;
+.disclaimer_area{
+ padding-top: 30px;
+ padding-bottom: 30px;
 }
-
-/* =============== End Community Page Backgound color gradient ==================== */
+/* =============== DISCLAIMER ==================== */
