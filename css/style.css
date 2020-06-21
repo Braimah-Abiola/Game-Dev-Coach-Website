@@ -2163,6 +2163,8 @@ margin-bottom: 40px;
 .counter_area{
   background-color: #e2c541;
   padding: 40px 0;
+  border-bottom: 5px #f0d55d solid;
+  border-top: 5px #f0d55d solid;
 }
 
 /* =============== Counter ==================== */
