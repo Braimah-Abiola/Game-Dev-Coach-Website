@@ -1704,6 +1704,7 @@ button:focus {
 
 .footer_area {
   border-top: 5px #ffeea4 solid;
+  border-bottom: 5px #ffeea4 solid;
   background: #eccf4a; }
 .social_widget .f_title h4 {
   font-size: 21px;
