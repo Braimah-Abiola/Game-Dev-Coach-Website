@@ -1703,12 +1703,11 @@ button:focus {
 ============================================================================================ */
 
 .footer_area {
-  border-top: 5px #ffeea4 solid;
   border-bottom: 5px #ffeea4 solid;
   background: #eccf4a; }
 .social_widget .f_title h4 {
   font-size: 21px;
-  margin: 40px 0 20px;
+  margin: 40px 0 40px;
   color: #000; }
 .social_widget p {
   font-size: 14px;
@@ -2153,7 +2152,7 @@ margin-bottom: 40px;
 }
 /* =============== DISCLAIMER ==================== */
 
-/* =============== DISCLAIMER ==================== */
+/* =============== Counter ==================== */
 
 .counter{
   font-size: 30px;
@@ -2161,4 +2160,9 @@ margin-bottom: 40px;
   color: rgb(0, 0, 0);
 }
 
-/* =============== DISCLAIMER ==================== */
+.counter_area{
+  background-color: #e2c541;
+  padding: 40px 0;
+}
+
+/* =============== Counter ==================== */
