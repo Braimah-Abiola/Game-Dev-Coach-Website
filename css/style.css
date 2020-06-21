@@ -1720,7 +1720,7 @@ button:focus {
   display: inline-block; }
 .social_widget .list li a {
   color: #2e2e2e;
-  font-size: 30px;
+  font-size: 40px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -2144,15 +2144,17 @@ margin-bottom: 40px;
 
 /* ===================== End Merch Gap ========================== */
 
-/* =============== DISCLAIMER ==================== */
+
+/* ===============START DISCLAIMER ==================== */
 
 .disclaimer_area{
  padding-top: 30px;
  padding-bottom: 30px;
 }
-/* =============== DISCLAIMER ==================== */
+/* =============== END DISCLAIMER ==================== */
 
-/* =============== Counter ==================== */
+
+/* =============== Start Counter ==================== */
 
 .counter{
   font-size: 30px;
@@ -2167,4 +2169,11 @@ margin-bottom: 40px;
   border-top: 5px #f0d55d solid;
 }
 
-/* =============== Counter ==================== */
+/* =============== End Counter ==================== */
+
+
+
+/* =============== Start ChatBot ==================== */
+
+
+/* =============== End Chatbot ==================== */
