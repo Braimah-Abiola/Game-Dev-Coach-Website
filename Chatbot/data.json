@@ -1,0 +1,24 @@
+{ "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you"],
+     "responses": ["Hello!", "Good to see you again"],
+     "context_set": ""
+    },
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you"],
+     "responses": ["Hello!", "Good to see you again"],
+     "context_set": ""
+     },
+     {"tag": "greeting",
+      "patterns": ["Hi", "How are you"],
+      "responses": ["Hello!", "Good to see you again"],
+      "context_set": ""
+     },
+     {"tag": "greeting",
+      "patterns": ["Hi", "How are you"],
+      "responses": ["Hello!", "Good to see you again"],
+      "context_set": ""
+     }
+  ]
+
+}
