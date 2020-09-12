@@ -104,6 +104,10 @@ counters.forEach(counter => {
   }
 
   updateCount();
+
+// Check whether Device is connected to the internet
+
+
 });
 
 // End Counter
